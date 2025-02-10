@@ -30,6 +30,7 @@ body{
 
 input{
     height: 22px;
+    width: 280px;
     padding: 8px;
     font-size: 1.2em;
     margin: 15px 70px;
@@ -41,7 +42,13 @@ input[type=number]:focus{
     box-shadow: 0 0 10px #3B59EE;
     border: 1px solid #74D0FF
 }
-
+.button-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 5px;
+}
 button{
     background-color: #007AFE;
     border: none;
